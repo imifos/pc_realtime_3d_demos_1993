@@ -8,7 +8,7 @@ The code in this repo contains the controller program in C and 2 assembler modul
 
 The second assembler module implements arithmetical matrix calculations required to perform operations like rotation and shifting in the 3D space, as well as flattening 3D coordinates into the 2D space. Again, everything using 'integer' operations and 'integer' registers. The clue at this time was to have rainbow tables with pre-calculated sin/cos values of all angles. In order to write this in assembler, I first wrote the entire 'integer' based logic in C, which allowed me to do a quite linear conversion to assembler.
 
-*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*
+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*
 
 1993...
 
